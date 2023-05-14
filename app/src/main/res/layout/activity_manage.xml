@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageActivity"
+    android:padding="30dp"
+    >
+
+
+    <TextView
+        android:id="@+id/Game_Welcome"
+        android:layout_width="275dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="100dp"
+        android:ems="10"
+        android:text="   Manage Game                   Choose what you want to do with this game:"
+        android:textColor="#272525"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/delete_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="88dp"
+        android:text="Delete"
+        android:background="@drawable/cb"
+
+        android:textAllCaps="false"
+        android:textColor="#C6B81A1A"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Game_Welcome" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
